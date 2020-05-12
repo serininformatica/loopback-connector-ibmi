@@ -30,7 +30,7 @@
     "loopback-connector": "^4.9.0",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.21",
-    "odbc": "^2.2.2",
+    "odbc": "github:markdirish/node-odbc#2.3.0-fetch-copy",
     "strong-globalize": "^5.0.2"
   },
   "devDependencies": {
@@ -39,8 +39,6 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-loopback": "^13.0.0",
     "eslint-plugin-import": "^2.16.0",
-    "juggler-v3": "file:./deps/juggler-v3",
-    "juggler-v4": "file:./deps/juggler-v4",
     "loopback-datasource-juggler": "3.x || 4.x",
     "mocha": "^6.1.4",
     "rc": "^1.1.5",
